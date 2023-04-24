@@ -1,0 +1,141 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #ffe8cc;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+.container {
+  flex-wrap: wrap;
+}
+
+.card {
+  width: 740px;
+  border: 0.1px solid #dee2e6;
+  margin: 0 auto;
+  border-radius: 12px;
+  background-color: #fff;
+}
+
+/* CARD-1 */
+.card-1 {
+  text-align: center;
+  margin-top: 48px;
+  margin-bottom: 22px;
+  padding-bottom: 8px;
+}
+
+.todo-pic {
+  height: 250px;
+}
+
+.card-1 h2 {
+  font-weight: 500;
+  margin-left: -596px;
+  padding-top: 8px;
+}
+
+.card-1 h1 {
+  margin-bottom: 5px;
+}
+
+.card-1 p {
+  font-size: 20px;
+}
+
+.task-details {
+  font-size: 17px;
+}
+
+/* Task Card */
+.flex {
+  display: flex;
+  gap: 16px;
+  padding-left: 18px;
+  margin-top: 8px;
+  padding-top: 8px;
+  border-top: 0.1px solid lightgray;
+  text-align: start;
+}
+
+.tasks-bg {
+  background-color: #96f2d7;
+  padding: 4px;
+  border-radius: 4px;
+}
+
+/* CARD-2 */
+.card-2 {
+  padding: 10px;
+  position: relative;
+}
+
+input {
+  border-radius: 12px;
+  border: 0.1px solid #fff;
+  padding: 13px 10px;
+  margin-bottom: 6px;
+  display: inline-block;
+  width: 100%;
+}
+
+input:focus {
+  outline-color: rgba(0, 119, 255, 0.7);
+  font-size: 15px;
+}
+
+input::placeholder {
+  font-size: 18px;
+}
+
+.due-date {
+  width: 222px;
+  margin-right: 12px;
+  border: 0.1px solid lightgray;
+}
+
+.btn {
+  font-size: 16px;
+  color: #fff;
+  background-color: #0d6dfd;
+  padding: 12px 14px;
+  margin-left: 360px;
+  border: none;
+  border-radius: 12px;
+  cursor: pointer;
+}
+
+.warning-alert {
+  font-size: 20px;
+  color: #fff5f5;
+  background-color: #e03131;
+  padding: 10px 18px;
+  border-radius: 12px;
+  position: absolute;
+  top: 6px;
+  right: 35%;
+  display: none;
+}
+
+/* Footer */
+footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  background-color: #212529;
+  padding: 6px;
+  border-top-right-radius: 6px;
+}
+
+footer a {
+  text-decoration: none;
+}
+
+.github-icon {
+  margin-left: 8px;
+}
